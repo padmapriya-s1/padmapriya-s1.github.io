@@ -3,12 +3,12 @@
   --background-color-light: #ffffff;  /* use white background */
   --text-color-light:       #333333;   /* standard dark grey text */
   --link-color-light:       #0366d6;   /* blue similar to GitHub’s link color */
-  --heading-color-light:    #1a1a1a;   /* dark heading color */
+  --heading-color-light:    #0366d6;   /* updated to blue for headings */
 
   --background-color-dark:  #181818;
   --text-color-dark:        #e0e0e0;
   --link-color-dark:        #8ab4f8;
-  --heading-color-dark:     #ffffff;
+  --heading-color-dark:     #ffffff;   /* dark theme heading; change if needed */
 
   --font-family: 'Open Sans', sans-serif;
 }
@@ -216,7 +216,7 @@ papertitle {
   width: 8.00em;
 }
 
-/* Headings now use the theme’s heading color */
+/* Headings now use the theme’s heading color (which is now blue in light theme) */
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.1;
 }
