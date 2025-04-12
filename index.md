@@ -9,12 +9,12 @@ Hi! I am Padmapriya, a master’s student embarking on an exciting journey into 
 I also have a blog, [Quanta on Computing](https://o-qcblog.github.io/), where I speak about exciting topics in theory CS.
 
 ## Research Interests
-
+Algorithms and Complexity theory, Beyond worst-case analysis of algorithms, Quantum Computing and Quantum Information, Boolean function complexity, Parameterized algorithms, and Machine learning.
 
 ## News
 
-- **[May. 2025]** 
-- **[April. 2025]** 
+- **[May. 2025]** Will be attending the Approximate Algorithm Summer School at IISc
+- **[April. 2025]** SPARKS scholar
 
 <!--{% include_relative _includes/publications.md %}
 
