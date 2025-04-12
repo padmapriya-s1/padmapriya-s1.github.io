@@ -24,6 +24,14 @@ avatar: ./assets/img/avatar.png
 favicon: ./assets/img/Myfavicon.png
 favicon_dark: ./assets/img/Myfavicon.png
 
+navbar:
+  - title: "About"
+    url: /about/
+  - title: "Research"
+    url: /research/
+  - title: "Blog"
+    url: /blog/
+
 # Footnote
 # You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
 enable_footnote: true
