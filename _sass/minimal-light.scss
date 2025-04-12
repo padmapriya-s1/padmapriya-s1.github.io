@@ -1,9 +1,9 @@
-/* Add the theme’s CSS variables from code B at the top */
+/* Updated theme variables to match the light look of https://o-qcblog.github.io/ */
 :root {
-  --background-color-light: #feffee;
-  --text-color-light:       #333333;
-  --link-color-light:       #1a73e8;
-  --heading-color-light:    #1a1a1a;
+  --background-color-light: #ffffff;  /* use white background */
+  --text-color-light:       #333333;   /* standard dark grey text */
+  --link-color-light:       #0366d6;   /* blue similar to GitHub’s link color */
+  --heading-color-light:    #1a1a1a;   /* dark heading color */
 
   --background-color-dark:  #181818;
   --text-color-dark:        #e0e0e0;
@@ -21,7 +21,7 @@
   --heading-color:    var(--heading-color-light);
 }
 
-/* For dark theme */
+/* For dark theme (unchanged) */
 [data-theme="dark"] {
   --background-color: var(--background-color-dark);
   --text-color:       var(--text-color-dark);
@@ -29,7 +29,7 @@
   --heading-color:    var(--heading-color-dark);
 }
 
-/* --- Begin code A (structure unchanged), with color values replaced --- */
+/* --- Begin code A (structure unchanged), with color values now using the updated variables --- */
 
 .pub-row {
   display: flex;
@@ -55,13 +55,11 @@
 }
 
 .social-icons a:hover {
-  /* Replace white & black with theme variables for contrast */
+  /* Use theme variables for a consistent hover state */
   background-color: var(--background-color);
   color: var(--text-color);
   transform: scale(1.2);
 }
-
-/* (The commented out :after rules remain intact.) */
 
 .icon-button {
   background-color: var(--background-color);
@@ -103,7 +101,7 @@
   margin: -1.8rem;
 }
 
-/* For the icon-button “decorations,” keep the brand‐colors for social media */
+/* The social media icon colors remain unchanged */
 .twitter span {
   background-color: #4099ff;
 }
@@ -211,7 +209,6 @@ papertitle {
   border-radius: 100%;
   width: 45%;
   padding: 20px;
-  /* The original commented borders/shadows remain commented */
 }
 
 #header .image.avatar {
@@ -219,7 +216,7 @@ papertitle {
   width: 8.00em;
 }
 
-/* Update headings to use the new theme’s heading color */
+/* Headings now use the theme’s heading color */
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.1;
 }
@@ -245,7 +242,7 @@ p, ul, ol, table, pre, dl {
   margin: 0 0 20px;
 }
 
-/* Update anchor tags to use the link color from the theme */
+/* Anchor tags now use the theme’s link color */
 a {
   color: var(--link-color);
   text-decoration: none;
@@ -351,7 +348,6 @@ header li:last-child a {
 header ul a {
   line-height: 1;
   font-size: 11px;
-  /* Optionally update header link color to use the text-color variable */
   color: var(--text-color);
   display: block;
   text-align: center;
