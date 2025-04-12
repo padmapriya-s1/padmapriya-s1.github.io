@@ -30,7 +30,7 @@ navbar:
   - title: "Research"
     url: /research/
   - title: "Blog"
-    url: /blog/
+    url: "https://o-qcblog.github.io/"
 
 # Footnote
 # You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
