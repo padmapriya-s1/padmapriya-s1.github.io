@@ -4,20 +4,18 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at ...
+Hi! I am Padmapriya, a master’s student embarking on an exciting journey into the world of theoretical computer science. My path began as an undergraduate in physics, where a curiosity about quantum computing opened the door to the vast field of theoretical computer science. As a passionate learner, I’m fascinated by the intersections of computer science, mathematics, and physics. 
+
+I also have a blog, [Quanta on Computing](https://o-qcblog.github.io/), where I speak about exciting topics in theory CS.
 
 ## Research Interests
 
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
 
 ## News
 
-- **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
-- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
-- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
-- **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019.
+- **[May. 2025]** 
+- **[April. 2025]** 
 
-{% include_relative _includes/publications.md %}
+<!--{% include_relative _includes/publications.md %}
 
-{% include_relative _includes/services.md %}
+#{% include_relative _includes/services.md %}-->
