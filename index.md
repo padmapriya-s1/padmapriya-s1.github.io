@@ -2,7 +2,7 @@
 layout: homepage
 ---
 
-## About Me
+<h2 style="color: blue;">About Me</h2>
 
 Hi! I am Padmapriya, a master’s student embarking on an exciting journey into the world of theoretical computer science. I am currently doing my master's thesis under the guidance of Dr Pravesh Kothari, IAS, Princeton University and Dr Anand Louis, Indian Institute of Sciences, Bengaluru, India.  
 
