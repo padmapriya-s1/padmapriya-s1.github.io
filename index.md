@@ -18,5 +18,5 @@ I also have a [blog](https://o-qcblog.github.io/), **[Quanta on Computing](https
 
 ## News
 
-- **[May. 2025]** Will be attending the [Approximate Algorithm Summer School at IISc](https://algo.csa.iisc.ac.in/summerschool_25/index.html)
-- **[April. 2025]** Selected as the [SPARKS](https://www.csa.iisc.ac.in/sparks-programme/) Scholar
+- **[May. 2025]** Will be attending the **[Approximate Algorithm Summer School at IISc](https://algo.csa.iisc.ac.in/summerschool_25/index.html)**
+- **[April. 2025]** Selected as the **[SPARKS](https://www.csa.iisc.ac.in/sparks-programme/)** Scholar
