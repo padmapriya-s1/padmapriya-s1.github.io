@@ -14,7 +14,7 @@ Algorithms and Complexity theory, Beyond worst-case analysis of algorithms, Quan
 
 ## [Blog](https://o-qcblog.github.io/)
 
-I also have a [blog, Quanta on Computing](https://o-qcblog.github.io/), where I speak about exciting topics in theory CS.
+I also have a [blog](https://o-qcblog.github.io/), **[Quanta on Computing](https://o-qcblog.github.io/)**, where I speak about exciting topics in theory CS.
 
 ## News
 
