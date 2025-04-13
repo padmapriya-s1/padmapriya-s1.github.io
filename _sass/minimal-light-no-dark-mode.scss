@@ -1,527 +1,441 @@
-/* Updated theme variables to match the light look of https://o-qcblog.github.io/ */
+---
+---
+
+//
+// IMPORTS
+//
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+@import "reset";
+@import "variables";
+// Syntax highlighting @import is at the bottom of this file
+
+/**************/
+/* BASE RULES */
+/**************/
+
 :root {
-  --background-color-light: #ffffff;  /* use white background */
-  --text-color-light:       #333333;   /* standard dark grey text */
-  --link-color-light:       #0366d6;   /* blue similar to GitHub’s link color */
-  --heading-color-light:    #0366d6;   /* updated to blue for headings */
+    --background-color-light: #feffee;
+    --text-color-light: #333333;
+    --link-color-light: #1a73e8;
+    --heading-color-light: #1a1a1a;
 
-  --background-color-dark:  #181818;
-  --text-color-dark:        #e0e0e0;
-  --link-color-dark:        #8ab4f8;
-  --heading-color-dark:     #ffffff;   /* dark theme heading; change if needed */
+    --background-color-dark: #181818;
+    --text-color-dark: #e0e0e0;
+    --link-color-dark: #8ab4f8;
+    --heading-color-dark: #ffffff;
 
-  --font-family: 'Open Sans', sans-serif;
+    --font-family: 'Open Sans', sans-serif;
 }
 
-/* For light theme (if you use data-theme attribute) */
 [data-theme="light"] {
-  --background-color: var(--background-color-light);
-  --text-color:       var(--text-color-light);
-  --link-color:       var(--link-color-light);
-  --heading-color:    var(--heading-color-light);
+    --background-color: var(--background-color-light);
+    --text-color: var(--text-color-light);
+    --link-color: var(--link-color-light);
+    --heading-color: var(--heading-color-light);
 }
 
-/* For dark theme (unchanged) */
 [data-theme="dark"] {
-  --background-color: var(--background-color-dark);
-  --text-color:       var(--text-color-dark);
-  --link-color:       var(--link-color-dark);
-  --heading-color:    var(--heading-color-dark);
+    --background-color: var(--background-color-dark);
+    --text-color: var(--text-color-dark);
+    --link-color: var(--link-color-dark);
+    --heading-color: var(--heading-color-dark);
 }
 
-/* --- Begin code A (structure unchanged), with color values now using the updated variables --- */
-
-.pub-row {
-  display: flex;
-  align-items: center;
-}
-
-.social-icons a {
-  display: inline-block;
-  height: 2.4rem;
-  width: 2.4rem;
-  background-color: transparent;
-  /* Use the new link color */
-  color: var(--link-color) !important;
-  border-radius: 100%;
-  text-align: center;
-  font-size: 1.15rem;
-  line-height: 2.5rem;
-  margin-right: 1rem;
-}
-
-.social-icons a:last-child {
-  margin-right: 0;
-}
-
-.social-icons a:hover {
-  /* Use theme variables for a consistent hover state */
-  background-color: var(--background-color);
-  color: var(--text-color);
-  transform: scale(1.2);
-}
-
-.icon-button {
-  background-color: var(--background-color);
-  border-radius: 3.6rem;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 2.0rem;
-  height: 3.6rem;
-  line-height: 3.6rem;
-  margin: 0 5px;
-  position: relative;
-  text-align: center;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  width: 3.6rem;
-}
-
-.icon-button span {
-  border-radius: 0;
-  display: block;
-  height: 0;
-  left: 50%;
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
-  width: 0;
-}
-
-.icon-button:hover span {
-  width: 3.6rem;
-  height: 3.6rem;
-  border-radius: 3.6rem;
-  margin: -1.8rem;
-}
-
-/* The social media icon colors remain unchanged */
-.twitter span {
-  background-color: #4099ff;
-}
-.facebook span {
-  background-color: #4286f4;
-}
-.linkedin span {
-  background-color: #0077B5;
-}
-.github span {
-  background-color: #000;
-}
-
-email {
-  font-size: 14px;
-  font-family: "Ubuntu Mono";
-}
-
-.icon-button i {
-  background: none;
-  color: white;
-  height: 3.6rem;
-  left: 0;
-  line-height: 3.6rem;
-  position: absolute;
-  top: 0;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
-  width: 3.6rem;
-  z-index: 10;
-}
-
-.icon-button .icon-twitter {
-  color: #4099ff;
-}
-.icon-button .icon-facebook {
-  color: #4286f4;
-}
-.icon-button .icon-github {
-  color: #000;
-}
-.icon-button .icon-linkedin {
-  color: #0077B5;
-}
-
-.icon-button:hover .icon-twitter,
-.icon-button:hover .icon-facebook,
-.icon-button:hover .icon-github,
-.icon-button:hover .icon-linkedin {
-  color: white;
-}
-
-autocolor {
-  color: #595959;
-}
-
-lightonly {
-  visibility: visible;
-}
-
-darkonly {
-  visibility: hidden;
-}
-
-education {
-  font-weight: 500;
-  font-size: 115%;
-}
-papertitle {
-  font-weight: 600;
+html {
   font-size: 100%;
 }
 
-.image {
-  border-radius: 0.35em;
-  border: 0;
-  display: inline-block;
-  position: relative;
+body {
+  background: var(--background-color);
+  font: 18px/1.4 var(--font-family);
+  color: var(--text-color);
 }
-.image:before {
-  -moz-transition: opacity 0.2s ease-in-out;
-  -webkit-transition: opacity 0.2s ease-in-out;
-  -ms-transition: opacity 0.2s ease-in-out;
-  transition: opacity 0.2s ease-in-out;
-  border-radius: 0.35em;
-  content: '';
-  display: block;
-  height: 100%;
-  left: 0;
-  opacity: 0.5;
-  position: absolute;
-  top: 0;
+
+.container {
+  margin: 0 auto;
+  max-width: 740px;
+  padding: 0 10px;
   width: 100%;
 }
 
-.image.avatar {
-  border-radius: 100%;
-}
-.image.avatar:before {
-  display: none;
-}
-.image.avatar img {
-  border-radius: 100%;
-  width: 45%;
-  padding: 20px;
-}
-
-#header .image.avatar {
-  margin: 0 0 1em 0;
-  width: 8.00em;
-}
-
-/* Headings now use the theme’s heading color (which is now blue in light theme) */
 h1, h2, h3, h4, h5, h6 {
-  line-height: 1.1;
+  font-family: var(--font-family);
+  color: var(--heading-color);
+  font-weight: bold;
+  line-height: 1.7;
+  margin: 1em 0 15px;
+  padding: 0;
+
+  @include mobile {
+    line-height: 1.4;
+  }
 }
+
 h1 {
-  font-weight: 500;
-  color: var(--heading-color);
-  margin: 0 0 20px;
-  font-size: 28px;
+  font-size: 30px;
+  a {
+    color: inherit;
+  }
 }
+
 h2 {
-  color: var(--heading-color);
-  font-weight: 500;
-  margin: 2px 0 15px;
-  font-size: 157%;
-}
-h3, h4, h5, h6 {
-  font-weight: 600;
-  color: var(--heading-color);
-  margin: 0 0 20px;
+  font-size: 24px;
 }
 
-p, ul, ol, table, pre, dl {
-  margin: 0 0 20px;
+h3 {
+  font-size: 20px;
 }
 
-/* Anchor tags now use the theme’s link color */
+h4 {
+  font-size: 18px;
+  color: var(--heading-color);
+}
+
+p {
+  margin: 15px 0;
+}
+
+/*Added for links to be blue */
+a[target="_blank"] {
+  color: #0000ff; /* Blue for external links */
+  text-decoration: underline; /* Optional: Make external links look distinct */
+}
+
 a {
-  color: var(--link-color);
+  color: #0000ff; /* Blue for external links */
   text-decoration: none;
   cursor: pointer;
 }
-a[target="_blank"] {
-  color: var(--link-color);
-  text-decoration: underline;
-}
-a small {
-  font-size: 11px;
-  color: #777;
-  margin-top: -0.3em;
-  display: block;
-}
-a:hover small {
-  color: #777;
+
+ul, ol {
+  margin: 15px 0;
+  padding-left: 30px;
 }
 
-.wrapper {
-  width: 960px;
-  margin: 0 auto;
+ul {
+  list-style-type: disc;
 }
 
-blockquote {
-  border-left: 1px solid #e5e5e5;
+ol {
+  list-style-type: decimal;
+}
+
+ol ul, ul ol, ul ul, ol ol {
   margin: 0;
-  padding: 0 0 0 20px;
+}
+
+ul ul, ol ul {
+  list-style-type: circle;
+}
+
+em, i {
   font-style: italic;
 }
 
-code, pre {
-  font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas,
-    Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
-  color: #333;
-}
-
-pre {
-  max-width: 500px;
-  padding: 8px 15px;
-  background: #f8f8f8;
-  border-radius: 5px;
-  border: 1px solid #e5e5e5;
-  overflow-x: auto;
-}
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-th, td {
-  text-align: left;
-  padding: 5px 10px;
-  border-bottom: 1px solid #e5e5e5;
-}
-
-dt {
-  color: #444;
-  font-weight: 500;
-}
-
-th {
-  color: #444;
+strong, b {
+  font-weight: bold;
 }
 
 img {
   max-width: 100%;
 }
 
-header {
-  width: 232px;
-  float: left;
-  position: fixed;
-  -webkit-font-smoothing: subpixel-antialiased;
-  padding-top: 4.0em;
-  text-align: center;
+// Fixes images in popup boxes from Google Translate
+.gmnoprint img {
+  max-width: none;
 }
 
-header ul {
-  list-style: none;
-  height: 40px;
-  padding: 0;
-  background: #f4f4f4;
-  border-radius: 5px;
-  border: 1px solid #e0e0e0;
-  width: 270px;
-}
-
-header li {
-  width: 89px;
-  float: left;
-  border-right: 1px solid #e0e0e0;
-  height: 40px;
-}
-
-header li:first-child a {
-  border-radius: 5px 0 0 5px;
-}
-header li:last-child a {
-  border-radius: 0 5px 5px 0;
-}
-header ul a {
-  line-height: 1;
-  font-size: 11px;
-  color: var(--text-color);
-  display: block;
-  text-align: center;
-  padding-top: 6px;
-  height: 34px;
-}
-header ul a:hover {
+.date {
+  font-style: italic;
   color: var(--text-color);
 }
-header ul a:active {
-  background-color: #f0f0f0;
+
+// Specify the color of the selection
+::-moz-selection {
+  color: var(--background-color);
+  background: var(--link-color);
+}
+::selection {
+  color: var(--background-color);
+  background: var(--link-color);
 }
 
-strong {
-  color: #222;
-  font-weight: 500;
+// Nicolas Gallagher's micro clearfix hack
+// http://nicolasgallagher.com/micro-clearfix-hack/
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
 }
 
-header ul li + li + li {
-  border-right: none;
-  width: 89px;
+.clearfix:after {
+    clear: both;
 }
 
-header ul a strong {
-  font-size: 14px;
-  display: block;
-  color: #222;
+/*********************/
+/* LAYOUT / SECTIONS */
+/*********************/
+
+//
+// .masthead
+//
+
+.wrapper-masthead {
+  margin-bottom: 50px;
 }
 
-section {
-  width: 650px;
+.masthead {
+  padding: 20px 0;
+  border-bottom: 1px solid var(--text-color);
+
+  @include mobile {
+    text-align: center;
+  }
+}
+
+.site-avatar {
+  float: left;
+  width: 70px;
+  height: 70px;
+  margin-right: 15px;
+
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+
+  img {
+    border-radius: 5px;
+  }
+}
+
+.site-info {
+  float: left;
+
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.site-name {
+  margin: 0;
+  color: #0000ff; /* Blue for external links */
+  cursor: pointer;
+  font-family: #0000ff; /* Blue for external links */
+  font-weight: 300;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+.site-description {
+  margin: -5px 0 0 0;
+  color: var(--text-color);
+  font-size: 16px;
+
+  @include mobile {
+    margin: 3px 0;
+  }
+}
+
+nav {
   float: right;
-  padding-top: 4.0em;
-  padding-bottom: 50px;
+  margin-top: 23px; // @TODO: Vertically middle align
+  font-family: var(--font-family);
+  font-size: 18px;
+
+  @include mobile {
+    float: none;
+    margin-top: 9px;
+    display: block;
+    font-size: 16px;
+  }
+
+  a {
+    margin-left: 20px;
+    color: #0000ff; /* Blue color */
+    text-align: right;
+    font-weight: 300;
+    letter-spacing: 1px;
+
+    @include mobile {
+      margin: 0 10px;
+      color: #0000ff; /* Blue color */
+    }
+  }
 }
 
-small {
-  font-size: 11px;
+//
+// .main
+//
+
+.posts > .post {
+  padding-bottom: 2em;
+  border-bottom: 1px solid var(--text-color);
 }
 
-hr {
-  border: 0;
-  background: #e5e5e5;
-  height: 1px;
-  margin: 0 0 20px;
+.posts > .post:last-child {
+  padding-bottom: 1em;
+  border-bottom: none;
+}
+
+.post {
+  blockquote {
+    margin: 1.8em .8em;
+    border-left: 2px solid var(--text-color);
+    padding: 0.1em 1em;
+    color: var(--text-color);
+    font-size: 22px;
+    font-style: italic;
+  }
+
+  .comments {
+    margin-top: 10px;
+  }
+
+  .read-more {
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+}
+
+.wrapper-footer {
+  margin-top: 50px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background-color: var(--background-color);
 }
 
 footer {
-  width: 232px;
-  float: left;
-  position: fixed;
-  bottom: 30px;
-  -webkit-font-smoothing: subpixel-antialiased;
+  padding: 20px 0;
   text-align: center;
 }
 
-/* Media queries and print rules remain unchanged */
-@media print, screen and (max-width: 960px) {
-  .pub-row {
-    display: flex;
-    align-items: center;
-  }
-  div.wrapper {
-    width: auto;
-    margin: 0;
-  }
-  header,
-  section,
-  footer {
-    float: none;
-    position: static;
-    width: auto;
-  }
-  header {
-    padding-right: 320px;
-  }
-  section {
-    border: 1px solid #e5e5e5;
-    border-width: 1px 0;
-    padding: 20px 0;
-    margin: 0 0 20px;
-  }
-  header a small {
-    display: inline;
-  }
-  header ul {
+// Settled on moving the import of syntax highlighting to the bottom of the CSS
+// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
+@import "highlights";
+@import "svg-icons";
+
+
+/* Additional elements*/
+
+.hint-box {
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 0;
+}
+
+.hint-box-header {
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid transparent; /* Border color without solid background */
+}
+
+.hint-box-content {
+  padding: 15px;
+  display: none;
+  border: 1px solid transparent;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+}
+
+.hint-box.info .hint-box-header {
+  border-color: #00529B;
+}
+
+.hint-box.info .hint-box.correct .hint-box-header {
+  border-color: #4BB543;
+  background-color: #dbf0d9;
+}
+
+.hint-box.info .hint-box.wrong .hint-box-header {
+  border-color: #D8000C;
+  background-color: #f7ccce;
+}
+
+.hint-box.info .hint-box.correct .hint-box-content {
+  border-color: #4BB543;
+  background-color: #dbf0d9;
+}
+
+.hint-box.info .hint-box.wrong .hint-box-content {
+  border-color: #D8000C;
+  background-color: #f7ccce;
+}
+
+/* Google Form */
+.form-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0; /* This ensures the height is based on padding-bottom */
+    overflow: hidden;
+    max-width: 100%;
+    clear: both; /* Ensure the container doesn't overlap elements below */
+}
+
+.form-container iframe {
     position: absolute;
-    right: 50px;
-    top: 52px;
-  }
-  .image.avatar img {
-    border-radius: 100%;
-    width: 117px;
-    padding: 20px;
-  }
-  #head1o2 {
-    visibility: hidden;
-  }
-  #head2o2 {
-    visibility: hidden;
-  }
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
 }
 
-@media print, screen and (max-width: 960px) {
-  body {
-    word-wrap: break-word;
-    padding: 15px;
-  }
-  .pub-row {
-    display: flex;
-    align-items: center;
-  }
-  header {
-    padding: 0;
-  }
-  header ul,
-  header p.view {}
-  pre,
-  code {
-    word-wrap: normal;
-  }
+/* Video */
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  background: #000;
 }
 
-@media print, screen and (max-width: 480px) {
-  .pub-row {
-    display: block;
-    align-items: center;
-  }
-  body {
-    padding: 15px;
-  }
-  header ul {
-    width: 99%;
-  }
-  header li,
-  header ul li + li + li {
-    width: 33%;
-  }
-  .image.avatar img {
-    border-radius: 100%;
-    width: 95px;
-    padding: 20px;
-  }
-  #head1o2 {
-    visibility: hidden;
-  }
-  #head2o2 {
-    visibility: hidden;
-  }
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
-@media print {
-  body {
-    padding: 0.4in;
-    font-size: 12pt;
-    color: #444;
-  }
-}
+/* image zoom */
 
-.biblink {
-  text-decoration: none;
-  display: inline;
-  margin-right: 0px;
-}
-
-.fakelink {
-  text-decoration: none;
+.image-container {
+  position: relative;
   cursor: pointer;
 }
 
-.bibref {
-  font-size: 70%;
-  margin-top: 10px;
-  margin-left: 0px;
+.zoom-image {
+  width: 100%;
+  height: auto;
+}
+
+.zoom-overlay {
   display: none;
-  font-family: monospace;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.zoom-overlay img {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.zoom-overlay.active {
+  display: flex;
 }
