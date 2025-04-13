@@ -11,8 +11,6 @@ My path began as an undergraduate in physics, where a curiosity about quantum co
 ## Research Interests
 Algorithms and Complexity theory, Beyond worst-case analysis of algorithms, Quantum Computing and Quantum Information, Boolean function complexity, Parameterized algorithms, and Machine learning.
 
-<!--[Click here](/research/) for detailed research interests.-->
-
 ## Blog
 I also have a blog, [Quanta on Computing](https://o-qcblog.github.io/), where I speak about exciting topics in theory CS.
 
@@ -20,7 +18,3 @@ I also have a blog, [Quanta on Computing](https://o-qcblog.github.io/), where I 
 
 - **[May. 2025]** Will be attending the [Approximate Algorithm Summer School at IISc](https://algo.csa.iisc.ac.in/summerschool_25/index.html)
 - **[April. 2025]** Got selected for the [SPARKS](https://www.csa.iisc.ac.in/sparks-programme/) Scholarship
-
-<!--{% include_relative _includes/publications.md %}
-
-#{% include_relative _includes/services.md %}-->
