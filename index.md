@@ -12,9 +12,9 @@ My path began as an undergraduate in physics, where a curiosity about quantum co
 
 Algorithms and Complexity theory, Beyond worst-case analysis of algorithms, Quantum Computing and Quantum Information, Boolean function complexity, Parameterized algorithms, and Machine learning. 
 
-## Blog
+## [Blog](https://o-qcblog.github.io/)
 
-I also have a blog, [Quanta on Computing](https://o-qcblog.github.io/), where I speak about exciting topics in theory CS.
+I also have a [blog, Quanta on Computing](https://o-qcblog.github.io/), where I speak about exciting topics in theory CS.
 
 ## News
 
