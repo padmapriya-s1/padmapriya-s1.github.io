@@ -4,9 +4,9 @@ layout: homepage
 
 ## About Me
 
-Hi! I am Padmapriya, a master’s student embarking on an exciting journey into the world of theoretical computer science. I am currently doing my master's thesis under the guidance of Dr Pravesh Kothari, IAS, Princeton University, United States and Dr Anand Louis, Indian Institute of Sciences, Bengaluru, India.  
+Hi! I’m Padmapriya, a master’s student with a deep passion for theoretical computer science. I’m currently pursuing my thesis under the guidance of Dr. Pravesh Kothari (IAS, Princeton University, USA) and Dr. Anand Louis (Indian Institute of Science, Bengaluru, India).
 
-My path began as an undergraduate in physics, where a curiosity about quantum computing opened the door to the vast field of theoretical computer science. As a passionate learner, I’m fascinated by the intersections of computer science, mathematics, and physics. 
+My journey began with an undergraduate degree in physics, where an early curiosity about quantum computing sparked my interest in the elegant world of theoretical computer science. Since then, I’ve been captivated by the rich interplay between computer science, mathematics, and physics—constantly driven by a desire to explore the foundational ideas that connect them.
 
 ## Research Interests
 
