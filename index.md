@@ -18,6 +18,6 @@ I also have a [blog](https://o-qcblog.github.io/), **[Quanta on Computing](https
 
 ## News
 
-- **[May. 2025]** Will be attending and presenting a poster at the **[Geometry, Probability, and Algorithms at ICTS](https://www.icts.res.in/discussion-meeting/gpa25)**
 - **[May. 2025]** Will be attending the **[Approximate Algorithm Summer School at IISc](https://algo.csa.iisc.ac.in/summerschool_25/index.html)**
+- **[May. 2025]** Attending the **[Geometry, Probability, and Algorithms at ICTS](https://www.icts.res.in/discussion-meeting/gpa25)** and presented **[poster](https://drive.google.com/file/d/1gGBCYK_K3BSqXaUFnpw32lVEd-hNLex2/view?usp=sharing)**.
 - **[April. 2025]** Selected as **[SPARKS](https://www.csa.iisc.ac.in/sparks-programme/)** Scholar
