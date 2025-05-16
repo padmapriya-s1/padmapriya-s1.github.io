@@ -12,12 +12,12 @@ My journey began as an undergraduate in physics, where an early curiosity about 
 
 Algorithms and Complexity theory, Beyond worst-case analysis of algorithms, Quantum Computing and Quantum Information, Boolean function complexity, Parameterized algorithms, and Machine learning. 
 
-## [Blog](https://o-qcblog.github.io/)
+## [Blog](https://o-qcblog.github.io/){:target="_blank"}
 
-I also have a [blog](https://o-qcblog.github.io/), **[Quanta on Computing](https://o-qcblog.github.io/)**, where I speak about exciting topics in theory CS.
+I also have a [blog](https://o-qcblog.github.io/){:target="_blank"}, **[Quanta on Computing](https://o-qcblog.github.io/){:target="_blank"}**, where I speak about exciting topics in theory CS.
 
 ## News
 
-- **[May. 2025]** Will be attending the **[Approximate Algorithm Summer School at IISc](https://algo.csa.iisc.ac.in/summerschool_25/index.html)**
-- **[May. 2025]** Attending the **[Geometry, Probability, and Algorithms at ICTS](https://www.icts.res.in/discussion-meeting/gpa25)** and presented **[poster](https://drive.google.com/file/d/1gGBCYK_K3BSqXaUFnpw32lVEd-hNLex2/view?usp=sharing)**.
-- **[April. 2025]** Selected as **[SPARKS](https://www.csa.iisc.ac.in/sparks-programme/)** Scholar
+- **[May. 2025]** Will be attending the **[Approximate Algorithm Summer School at IISc](https://algo.csa.iisc.ac.in/summerschool_25/index.html){:target="_blank"}**
+- **[May. 2025]** Attending the **[Geometry, Probability, and Algorithms at ICTS](https://www.icts.res.in/discussion-meeting/gpa25){:target="_blank"}** and presented **[poster](https://drive.google.com/file/d/1gGBCYK_K3BSqXaUFnpw32lVEd-hNLex2/view?usp=sharing){:target="_blank"}**.
+- **[April. 2025]** Selected as **[SPARKS](https://www.csa.iisc.ac.in/sparks-programme/){:target="_blank"}** Scholar
