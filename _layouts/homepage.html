@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4XQN1E376G"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-4XQN1E376G');
+    </script>
+    
     <title>{{ site.title }} | {{site.affiliation}}</title>
 
     <meta charset="UTF-8">
@@ -117,14 +127,5 @@
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
    <!--Put Google analytics down here later-->
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-4XQN1E376G"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-4XQN1E376G');
-</script>
   </body>
 </html>
