@@ -1,1 +1,16 @@
+---
+title: "Quanta on Computing"
+layout: post
+date: 2025-07-17 22:10
+tag: jekyll
+image: https://padmapriya-s1.github.io/indigo/assets/images/jekyll-logo-light-solid.png
+headerImage: true
+projects: true
+hidden: true
+description: "Consists of many quantum of information on computing!"
+category: project
+author: padmapriya
+externalLink: false
+---
 
+Click here to visit my blog page [Quanta on Computing](https://o-qcblog.github.io/).
