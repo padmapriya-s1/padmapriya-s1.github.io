@@ -3,7 +3,7 @@ title: "Quanta on Computing"
 layout: post
 date: 2025-07-17 10:10
 tag: jekyll
-image: https://padmapriya-s1.github.io/indigo/assets/images/jekyll-logo-light-solid.png
+image: https://padmapriya-s1.github.io/assets/images/logo.png
 headerImage: true
 projects: true
 hidden: true
