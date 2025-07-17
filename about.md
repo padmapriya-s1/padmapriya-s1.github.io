@@ -18,12 +18,6 @@ Algorithms and Complexity theory, Beyond worst-case analysis of algorithms, Quan
 
 I also have a [blog](https://o-qcblog.github.io/){:target="_blank"}, **[Quanta on Computing](https://o-qcblog.github.io/){:target="_blank"}**, where I speak about topics that excite me in theoretical computer science.
 
-## Passion Project
-
-Teaching is the best form of learning, and when passion meets perception, surprising results occur. *Quantum Computing and Quantum Information*, a comprehensive note co-authored by [Nishkal Rao](https://github.com/nishkalrao20){:target="_blank"} and me, is one such result of a passion project in the pursuit of deeper understanding and love for communicating science.
-
-You can find the latest updated version of the full book in this [site](https://o-qcblog.github.io/QIQC/){:target="_blank"}.
-
 ## News
 
 - **[May. 2025]** Attended the **[Approximate Algorithm Summer School at IISc](https://algo.csa.iisc.ac.in/summerschool_25/index.html){:target="_blank"}**
