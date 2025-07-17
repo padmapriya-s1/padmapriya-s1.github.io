@@ -5,8 +5,7 @@ date: 2025-07-17 10:00:00 +0530
 image: https://padmapriya-s1.github.io/assets/images/logo.png
 headerImage: false
 tag:
-- markdown
-- elements
+- Blog
 star: true
 category: blog
 author: padmapriya
