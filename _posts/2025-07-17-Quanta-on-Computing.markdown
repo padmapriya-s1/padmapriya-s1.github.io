@@ -6,7 +6,7 @@ tag: jekyll
 image: https://padmapriya-s1.github.io/assets/images/logo.png
 headerImage: true
 projects: true
-hidden: true
+hidden: false
 description: "Consists of many quantum of information on computing!"
 category: project
 author: padmapriya
