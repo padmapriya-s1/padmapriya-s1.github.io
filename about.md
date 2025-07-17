@@ -4,42 +4,42 @@ layout: page
 ---
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
-<p>Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+## About Me
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+Hi! I’m Padmapriya, a master's student with a deep passion for theoretical computer science. I’m fortunate to be doing my master's thesis under the joint guidance of Dr. Pravesh Kothari (IAS, Princeton University, USA) and Dr. Anand Louis (Indian Institute of Science, Bengaluru, India).
 
-<h2>Skills</h2>
+My journey began as an undergraduate in physics, where an early curiosity about quantum computing sparked my interest in the elegant world of theoretical computer science. Since then, I’ve been captivated by the rich interplay between computer science, mathematics, and physics—constantly driven by a desire to explore the foundational ideas that connect them.
 
-<ul class="skill-list">
-	<li>HTML - Jade - Haml - Erb</li>
-	<li>Responsive (Mobile First)</li>
-	<li>CSS (Stylus, Sass, Less)</li>
-	<li>Css Frameworks (Bootstrap, Foundation)</li>
-	<li>Javascript (Design Patterns, Tests)</li>
-	<li>AngularJS - ReactJS</li>
-	<li>Grunt - Gulp - Yeoman</li>
-	<li>Git</li>
-	<li>PHP</li>
-	<li>Python</li>
-	<li>MySQL - MongoDB</li>
-	<li>Scrum and Kanban</li>
-	<li>TDD e Continuous Integration</li>
-</ul>
+## Research Interests
 
-<h2>Projects</h2>
+Algorithms and Complexity theory, Beyond worst-case analysis of algorithms, Quantum Computing and Quantum Information, Boolean function complexity, Parameterized algorithms, and Machine learning. 
 
-<ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
-</ul>
+## [Blog](https://o-qcblog.github.io/){:target="_blank"}
+
+I also have a [blog](https://o-qcblog.github.io/){:target="_blank"}, **[Quanta on Computing](https://o-qcblog.github.io/){:target="_blank"}**, where I speak about topics that excite me in theoretical computer science.
+
+## Passion Project
+
+Teaching is the best form of learning, and when passion meets perception, surprising results occur. *Quantum Computing and Quantum Information*, a comprehensive note co-authored by [Nishkal Rao](https://github.com/nishkalrao20){:target="_blank"} and me, is one such result of a passion project in the pursuit of deeper understanding and love for communicating science.
+
+You can find the latest updated version of the full book in this [site](https://o-qcblog.github.io/QIQC/){:target="_blank"}.
+
+## News
+
+- **[May. 2025]** Attended the **[Approximate Algorithm Summer School at IISc](https://algo.csa.iisc.ac.in/summerschool_25/index.html){:target="_blank"}**
+- **[May. 2025]** Attended the **[Geometry, Probability, and Algorithms at ICTS](https://www.icts.res.in/discussion-meeting/gpa25){:target="_blank"}** and presented [poster](https://drive.google.com/file/d/1gGBCYK_K3BSqXaUFnpw32lVEd-hNLex2/view?usp=sharing){:target="_blank"}.
+- **[April. 2025]** Selected as **[SPARKS](https://www.csa.iisc.ac.in/sparks-programme/){:target="_blank"}** Scholar
+
+<!-- Google tag (gtag.js) -->
+<!--
+<head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4XQN1E376G"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4XQN1E376G');
+</script>
+</head>
+-->
