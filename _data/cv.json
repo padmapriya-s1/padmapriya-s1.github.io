@@ -1,61 +1,52 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Padmapriya S",
+    "email": "quantaoncomputing@gmail.com",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://padmapriya-s1.github.io/",
+    "summary": "MS Thesis Student at Indian Institute of Science, Bengaluru | BS-MS Student at Indian Institute of Science Education and Research, Pune",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
+      "city": "",
+      "countryCode": "",
       "region": ""
     },
     "profiles": [
       {
         "network": "Google Scholar",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "url": ""
       },
       {
         "network": "ORCID",
         "username": "",
-        "url": "http://orcid.org/yourorcidurl"
+        "url": "https://orcid.org/0009-0003-8596-4190"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "o-qcblog",
+        "url": "https://github.com/o-qcblog"
       }
     ]
   },
   "work": [],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
+      "institution": "Indian Institute of Science (IISc), Bengaluru, India",
+      "area": "Master's Thesis Student at the Department of Computer Science and Automation (CSA)",
       "studyType": "",
       "startDate": "",
-      "endDate": "2018",
+      "endDate": "2026",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
+      "institution": "Indian Institute of Science Education and Research (IISER), Pune, India",
+      "area": "BS-MS Dual Degree",
       "studyType": "",
       "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
+      "endDate": "2026",
       "gpa": null,
       "courses": []
     }
@@ -126,18 +117,18 @@
   ],
   "teaching": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
+      "course": "Teaching Assistant for Algorithms Course",
+      "institution": "IISER Pune, Department of Mathematics",
+      "date": "2025-01-01",
+      "role": "Teaching Assistant",
+      "description": "Serving as Teaching Assistant for the Algorithms course offered at IISER Pune by Prof. Soumen Maity"
     },
     {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
+      "course": "Teaching Assistant for Graph Theory Course",
+      "institution": "IISER Pune, Department of Mathematics",
       "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
+      "role": "Teaching Assistant",
+      "description": "Served as Teaching Assistant for the Graph Theory course offered at IISER Pune by Prof. Soumen Maity"
     }
   ],
   "portfolio": [
