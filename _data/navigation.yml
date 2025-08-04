@@ -11,6 +11,8 @@ main:
   
   - title: "Blog"
     url: "https://o-qcblog.github.io/"
+    target: "_blank"
+    rel: "noopener noreferrer"
     
   - title: "CV"
     url: /cv/
