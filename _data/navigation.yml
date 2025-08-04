@@ -25,7 +25,8 @@ main:
 
   - title: "Teaching"
     url: /teaching/    
-    
+
+  # Title Prrtfolio as projects and write about project work 
   #- title: "Portfolio"
     #url: /portfolio/
     
