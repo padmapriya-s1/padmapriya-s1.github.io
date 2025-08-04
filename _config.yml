@@ -7,7 +7,7 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
+locale                   : ""
 site_theme               : "default"
 title                    : "Padmapriya S"
 title_separator          : "-"
@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "Padmapriya S"
   pronouns         : # example: "she/her"  
-  bio              : "BS-MS Student"
+  bio              : "MS Thesis Student at IISc Bengaluru | BS-MS Student IISER Pune"
   location         : "IISER, Pune"
   employer         : "IISc Bengluru, IISER Pune"
   uri              : # URL
