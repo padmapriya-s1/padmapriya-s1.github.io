@@ -26,7 +26,7 @@ author:
   name             : "Padmapriya S"
   pronouns         : # example: "she/her"  
   bio              : "MS Thesis Student at IISc Bengaluru | BS-MS Student IISER Pune"
-  location         : "IISER, Pune"
+  #location         : "IISER, Pune"
   employer         : "IISc Bengluru, IISER Pune"
   uri              : # URL
   email            : "quantaoncomputing@gmail.com" 
