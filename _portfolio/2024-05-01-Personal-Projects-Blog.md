@@ -1,8 +1,8 @@
 ---
-title: 'Blog: Quanta On Computing'
+title: 'Personal Project: Quanta On Computing Blog'
 date: 2024-05-01
 layout: single
-excerpt: "Theoretical Computer Science Blog"
+excerpt: "Consists of many quantum of information on computer science!"
 published: true
 permalink: /portfolio/2024-05-01-Personal-Projects-Blog
 ---
