@@ -1,15 +1,11 @@
 ---
-layout: archive
-title: "Projects"
-permalink: /projects/
+layout: archive 
+title: "Projects" 
+permalink: /portfolio/ 
 author_profile: true
 ---
-
 {% include base_path %}
 
-{% assign projects = site.projects | sort: "date" | reverse %}
-
-{% for project in projects %}
-  {% assign item = project %}
-  {% include archive-single.html %}
+{% for post in site.portfolio %}
+{% include archive-single.html %}
 {% endfor %}
