@@ -1,7 +1,7 @@
 ---
 title: 'Blog: Quanta On Computing'
 date: 2024-05-01
-permalink: /posts/2024-05-01-Blog-Post
+permalink: /projects/2024-05-01-Personal-Projects-Blog.md
 tags:
 
 ---
