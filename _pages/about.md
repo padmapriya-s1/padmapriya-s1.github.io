@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Padmapriya S"
+title: "S. Padmapriya"
 author_profile: true
 redirect_from: 
   - /about/
