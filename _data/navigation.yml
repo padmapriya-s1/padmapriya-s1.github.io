@@ -19,19 +19,12 @@ main:
 
   #- title: "Publications"
     #url: /publications/
+
+  - title: "Projects"
+    url: /projects/
     
   - title: "Talks"
     url: /talks/    
 
   - title: "Teaching"
     url: /teaching/    
-
-  # Title Prrtfolio as projects and write about project work 
-  #- title: "Portfolio"
-    #url: /portfolio/
-    
-  # - title: "CV"
-  #   url: /cv-json/
-    
-  #- title: "Guide"
-    #url: /markdown/
