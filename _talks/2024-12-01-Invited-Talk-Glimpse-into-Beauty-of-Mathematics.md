@@ -2,9 +2,9 @@
 title: "Invited Talk: Glimpse into Beauty of Mathematics"
 collection: talks
 type: "Talks"
-permalink: /talks/2024-12-01-Invited-Talks-Glimpse-into-Beauty-of-Mathematics
+permalink: /talks/2024-12-01-Invited-Talk-Glimpse-into-Beauty-of-Mathematics
 venue: "DAV Girls School Gopalapuram"
-date: 2024-12-01
+date: 2023-07-11
 location: "Chennai, India"
 tags:
 - fun mathematics
