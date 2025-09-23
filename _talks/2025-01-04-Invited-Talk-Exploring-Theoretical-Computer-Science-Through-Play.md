@@ -22,10 +22,8 @@ To keep the curiosity going, I had also prepared a short handout with puzzles an
 
 For anyone interested, I’ve shared the slides and handouts here.
 
-<iframe src="assets/files/Workshop2024_Slides.pdf" width="100%" height="600px" style="border: none;">
-</iframe>
-
-<object data="assets/files/Workshop2024_Slides.pdf" type="application/pdf" width="100%" height="600">
-    <p>Your browser doesn’t support embedded PDFs.
-       <a href=" https://drive.google.com/file/d/1HhrYfRYmS6_MBOgqcPwG1IXwyUJ_SV61/view?usp=sharing">View the PDF</a>.</p>
+<object data="https://drive.google.com/file/d/1HhrYfRYmS6_MBOgqcPwG1IXwyUJ_SV61/view?usp=sharing"
+        type="application/pdf" width="100%" height="600">
+  <p>Your browser can’t display this PDF.
+     <a href="https://drive.google.com/file/d/1HhrYfRYmS6_MBOgqcPwG1IXwyUJ_SV61/view?usp=sharing">View the file</a>.</p>
 </object>
