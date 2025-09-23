@@ -15,13 +15,15 @@ main:
     rel: "noopener noreferrer"
     
   - title: "CV"
-    url: /cv/
+    url: "https://drive.google.com/file/d/15VMDd320VlDlmHlVfaU1A1ucmBspO5Y7/view?usp=sharing"
+    target: "_blank"
+    rel: "noopener noreferrer"
 
   #- title: "Publications"
     #url: /publications/
 
   - title: "Projects"
-    url: /portfolio/
+    url: /projects/
     
   - title: "Talks"
     url: /talks/    
