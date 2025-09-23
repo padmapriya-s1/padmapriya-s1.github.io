@@ -22,6 +22,5 @@ To keep the curiosity going, I had also prepared a short handout with puzzles an
 
 For anyone interested, I’ve shared the [slides](https://drive.google.com/file/d/1HhrYfRYmS6_MBOgqcPwG1IXwyUJ_SV61/view?usp=sharing) and [handouts](https://drive.google.com/file/d/1-kEBxEJ903jIELhEfmULeaKEQhGgfnwd/view?usp=sharing) here.
 
-<a href="https://drive.google.com/file/d/1zRC3xH69uvUXdOf7GQWYUVKBjLZzCLNS/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-  <img src="https://drive.google.com/file/d/1zRC3xH69uvUXdOf7GQWYUVKBjLZzCLNS/view?usp=sharing" alt="Talk Photo:)" width="300"/>
-</a>
+
+<img src="/images/file_images/DAVTalk2.jpg" alt="Profile photo" width="400"/>
