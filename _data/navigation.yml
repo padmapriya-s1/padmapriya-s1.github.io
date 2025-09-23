@@ -23,7 +23,7 @@ main:
     #url: /publications/
 
   - title: "Projects"
-    url: /projects/
+    url: /portfolio/
     
   - title: "Talks"
     url: /talks/    
