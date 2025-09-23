@@ -20,14 +20,4 @@ This time, I couldn’t resist sharing my excitement for theoretical computer sc
 
 To keep the curiosity going, I had also prepared a short handout with puzzles and problems for interested students. I was genuinely moved by their enthusiasm. Many of them were eagerly to own a copy of the handout that we quickly ran out of copies! 
 
-For anyone interested, I’ve shared the slides and handouts here.
-
-<iframe src="https://mozilla.github.io/pdf.js/web/viewer.html?file=https://drive.google.com/uc?export=download&id=1HhrYfRYmS6_MBOgqcPwG1IXwyUJ_SV61"
-        width="100%" height="600" style="border:none;">
-</iframe>
-
-<object data="https://drive.google.com/file/d/1HhrYfRYmS6_MBOgqcPwG1IXwyUJ_SV61/view?usp=sharing"
-        type="application/pdf" width="100%" height="600">
-  <p>Your browser can’t display this PDF.
-     <a href="https://drive.google.com/file/d/1HhrYfRYmS6_MBOgqcPwG1IXwyUJ_SV61/view?usp=sharing">View the slides</a>.</p>
-</object>
+For anyone interested, I’ve shared the [slides](https://drive.google.com/file/d/1HhrYfRYmS6_MBOgqcPwG1IXwyUJ_SV61/view?usp=sharing) and [handouts](https://drive.google.com/file/d/1-kEBxEJ903jIELhEfmULeaKEQhGgfnwd/view?usp=sharing) here.
