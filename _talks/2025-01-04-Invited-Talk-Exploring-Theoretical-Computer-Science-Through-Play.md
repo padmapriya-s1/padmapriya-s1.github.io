@@ -8,7 +8,7 @@ date: 2025-01-04
 location: "Chennai, India"
 tags:
 - TheoryCS
-- sourting
+- sorting
 - lower bounds
 - puzzles
 - career guidance
