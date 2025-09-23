@@ -1,3 +1,18 @@
+---
+title: "Separation Between Computational Complexity Measures Using Projective Geometry"
+collection: presentation
+type: "Poster Presentation"
+permalink: /talks/2025-05-12-Geometry-Probability-Algorithm-Poster
+venue: "ICTS"
+date: 2025-05-12
+location: "Bengaluru, India"
+tags:
+- Boolean function complexity
+- Projective geometry
+- sensitivity
+- block sensitivity
+- Theory CS
+---
 This poster was presented as a part of the [Geometry Probability and Algorithm conference at International Center for Theoretical Sciences (ICTS), Bengaluru, India](https://www.icts.res.in/discussion-meeting/gpa25).
 
 This project (Summer Project May–August 2024) was conducted under the guidance of Dr.Rajat Mittal, Department of Computer Science and Engineering, Indian Ins􀆟tute of Technology, Kanpur,
