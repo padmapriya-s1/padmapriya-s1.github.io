@@ -3,7 +3,6 @@ title: 'Personal Project: Quanta On Computing Blog'
 date: 2024-05-01
 layout: single
 excerpt: "Consists of many quantum of information on computer science!"
-published: true
 permalink: /portfolio/2024-05-01-Personal-Projects-Blog
 ---
 
