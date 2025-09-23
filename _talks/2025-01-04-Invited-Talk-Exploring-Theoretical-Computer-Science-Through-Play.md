@@ -22,8 +22,11 @@ To keep the curiosity going, I had also prepared a short handout with puzzles an
 
 For anyone interested, I’ve shared the slides and handouts here.
 
+<iframe src="https://drive.google.com/file/d/1HhrYfRYmS6_MBOgqcPwG1IXwyUJ_SV61/view?usp=sharing"
+        width="100%" height="600" style="border:none;">
+</iframe>
 <object data="https://drive.google.com/file/d/1HhrYfRYmS6_MBOgqcPwG1IXwyUJ_SV61/view?usp=sharing"
         type="application/pdf" width="100%" height="600">
   <p>Your browser can’t display this PDF.
-     <a href="https://drive.google.com/file/d/1HhrYfRYmS6_MBOgqcPwG1IXwyUJ_SV61/view?usp=sharing">View the file</a>.</p>
+     <a href="https://drive.google.com/file/d/1HhrYfRYmS6_MBOgqcPwG1IXwyUJ_SV61/view?usp=sharing">View the slides</a>.</p>
 </object>
