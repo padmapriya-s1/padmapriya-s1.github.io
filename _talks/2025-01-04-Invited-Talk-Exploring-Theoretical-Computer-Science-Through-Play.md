@@ -13,3 +13,5 @@ tags:
 - puzzles
 - career guidance
 ---
+
+I was priviledge to be invited for the second time as a Guest speaker to my school. 
