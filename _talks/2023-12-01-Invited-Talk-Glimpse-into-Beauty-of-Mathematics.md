@@ -23,4 +23,4 @@ What struck me most was the curiosity that surfaced during the Q&A that followed
 
 Looking back, this session wasn’t just about sharing mathematics. It was about giving back to a place that shaped me, and about sparking even a small shift in how students see a subject that is so often misunderstood.
 
-Here are the link to the [slides](https://drive.google.com/file/d/1CUZyVi3lLDY6eFJmZvk6V5uDUf8s5wF3/view?usp=sharing) and the [handout](https://drive.google.com/file/d/1J9hgt9VArmWqRc5rGI2kmFOn-J_sVIi7/view?usp=sharing) that I prepared for the talk.
+Here are the link to the [slides](https://drive.google.com/file/d/1YQNuqZQpgd7ucxMD2-gTfqn8r__mt3M7/view?usp=sharing) and the [handout](https://drive.google.com/file/d/1J9hgt9VArmWqRc5rGI2kmFOn-J_sVIi7/view?usp=sharing) that I prepared for the talk.
