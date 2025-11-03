@@ -26,6 +26,9 @@ for _, item in publications.iterrows():
     if pd.notna(item.get('category')):
         md += f"\ncategory: {item.category}"
 
+    if len(str(item.get('author', ''))) > 0:
+        md += f"\nauthor: '{html_escape(item.author)}'"
+
     if len(str(item.excerpt)) > 5:
         md += f"\nexcerpt: '{html_escape(item.excerpt)}'"
 
@@ -46,7 +49,7 @@ for _, item in publications.iterrows():
     if len(str(item.excerpt)) > 5:
         md_body.append(html_escape(item.excerpt))
 
-    # Combine YAML and body, without the 'Recommended citation' line or citation field
+    # Combine YAML and body
     full_md = md + "\n\n" + "\n\n".join(md_body)
 
     output_path = os.path.join("../_publications", md_filename)
