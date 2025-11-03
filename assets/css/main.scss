@@ -53,3 +53,14 @@
   background-color: #007BFF;
   color: #ffffff;
 }
+
+.archive__item-authors {
+  font-style: italic;
+  margin-top: -5px;
+  color: var(--text-muted, #555);
+
+  // Optional fine-tuning for dark mode
+  @media (prefers-color-scheme: dark) {
+    color: #bbb;
+  }
+}
