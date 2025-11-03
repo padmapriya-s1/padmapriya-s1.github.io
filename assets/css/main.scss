@@ -40,3 +40,16 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* Add this to your main.css or assets/css/main.scss */
+
+::selection {
+  background-color: #007BFF; /* A pleasant blue shade */
+  color: #ffffff; /* White text for contrast */
+}
+
+/* For Firefox */
+::-moz-selection {
+  background-color: #007BFF;
+  color: #ffffff;
+}
