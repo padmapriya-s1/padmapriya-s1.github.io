@@ -10,7 +10,7 @@ paperurl: 'https://doi.org/10.48550/arXiv.2510.26938'
 published: true
 ---
 
-**DOI:** <a href='https://doi.org/10.48550/arXiv.2510.26938' style='color:#1a0dab;'>https://doi.org/10.48550/arXiv.2510.26938</a>
+**DOI:** <a href='https://doi.org/10.48550/arXiv.2510.26938' target='_blank' rel='noopener noreferrer' style='color:#1a0dab;'>https://doi.org/10.48550/arXiv.2510.26938</a>
 
 **Authors:** Ajinkya Gaikwad, Hitendra Kumar, **S. Padmapriya**, Praneet Kumar Patra, Harsh Sanklecha, Soumen Maity
 
