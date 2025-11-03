@@ -7,7 +7,6 @@ excerpt: 'We study a family of graph modification problems called the F-Vertex S
 date: 2025-10-30
 venue: 'arXiv'
 paperurl: 'https://doi.org/10.48550/arXiv.2510.26938'
-author: Ajinkya Gaikwad, Hitendra Kumar, S. Padmapriya, Praneet Kumar Patra, Harsh Sanklecha, Soumen Maity
 published: true
 ---
 
