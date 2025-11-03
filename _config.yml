@@ -194,7 +194,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   publications:
-    output: false
+    output: true
     permalink: /:collection/:path/
   projects:
     output: true
