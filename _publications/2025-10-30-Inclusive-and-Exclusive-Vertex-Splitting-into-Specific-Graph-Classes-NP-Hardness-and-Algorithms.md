@@ -1,7 +1,7 @@
 ---
 title: "Inclusive and Exclusive Vertex Splitting into Specific Graph Classes: NP Hardness and Algorithms"
 collection: publications
-category: preprint
+category: manuscripts
 permalink: /publication/2025-10-30-Inclusive-and-Exclusive-Vertex-Splitting-into-Specific-Graph-Classes-NP-Hardness-and-Algorithms
 excerpt: ' '
 date: 2025-10-30
