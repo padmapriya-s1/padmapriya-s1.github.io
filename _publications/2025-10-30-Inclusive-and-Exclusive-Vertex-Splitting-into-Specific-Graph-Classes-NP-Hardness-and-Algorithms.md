@@ -5,9 +5,9 @@ category: manuscripts
 permalink: /publication/2025-10-30-Inclusive-and-Exclusive-Vertex-Splitting-into-Specific-Graph-Classes-NP-Hardness-and-Algorithms
 excerpt: ' '
 date: 2025-10-30
-venue: ' '
+venue: 'Arxiv pre-print'
 paperurl: 'https://doi.org/10.48550/arXiv.2510.26938'
-citation: ' '
+citation: 'Ajinkya Gaikwad and Hitendra Kumar and S. Padmapriya and Praneet Kumar Patra and Harsh Sanklecha and Soumen Maity (2025). &quot;Inclusive and Exclusive Vertex Splitting into Specific Graph Classes: NP Hardness and Algorithms.&quot; <i>Pre-print</i>.'
 published: true
 ---
 ### Abstract
