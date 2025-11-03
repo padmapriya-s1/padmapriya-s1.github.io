@@ -23,27 +23,11 @@ author_profile: true
         <h2>{{ category[1].title }}</h2><hr />
         {% assign title_shown = true %}
       {% endunless %}
-      <div class="publication-entry">
-        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-        {% if post.citation %}
-          <p class="pub-authors"><em>{{ post.citation | split: '.' | first }}</em></p>
-        {% endif %}
-        {% if post.excerpt %}
-          <p class="pub-abstract">{{ post.excerpt | strip_html | truncatewords: 80 }}</p>
-        {% endif %}
-      </div>
+      {% include archive-single.html %}
     {% endfor %}
   {% endfor %}
 {% else %}
   {% for post in site.publications reversed %}
-    <div class="publication-entry">
-      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-      {% if post.citation %}
-        <p class="pub-authors"><em>{{ post.citation | split: '.' | first }}</em></p>
-      {% endif %}
-      {% if post.excerpt %}
-        <p class="pub-abstract">{{ post.excerpt | strip_html | truncatewords: 80 }}</p>
-      {% endif %}
-    </div>
+    {% include archive-single.html %}
   {% endfor %}
 {% endif %}
