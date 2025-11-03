@@ -19,8 +19,8 @@ main:
     target: "_blank"
     rel: "noopener noreferrer"
 
-  #- title: "Publications"
-    #url: /publications/
+  - title: "Publications"
+    url: /publications/
 
   - title: "Projects"
     url: /portfolio/
