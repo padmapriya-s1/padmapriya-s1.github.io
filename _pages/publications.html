@@ -23,26 +23,26 @@ author_profile: true
         <h2>{{ category[1].title }}</h2><hr />
         {% assign title_shown = true %}
       {% endunless %}
-      <div class="pub-preview">
-        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-        {% if post.authors %}
-          <p class="pub-authors"><em>{{ post.authors }}</em></p>
+      <div class="publication-entry">
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        {% if post.citation %}
+          <p class="pub-authors"><em>{{ post.citation | split: '.' | first }}</em></p>
         {% endif %}
-        {% if post.venue %}
-          <p class="pub-venue">{{ post.venue }} ({{ post.date | date: "%Y" }})</p>
+        {% if post.excerpt %}
+          <p class="pub-abstract">{{ post.excerpt | strip_html | truncatewords: 80 }}</p>
         {% endif %}
       </div>
     {% endfor %}
   {% endfor %}
 {% else %}
   {% for post in site.publications reversed %}
-    <div class="pub-preview">
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      {% if post.authors %}
-        <p class="pub-authors"><em>{{ post.authors }}</em></p>
+    <div class="publication-entry">
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      {% if post.citation %}
+        <p class="pub-authors"><em>{{ post.citation | split: '.' | first }}</em></p>
       {% endif %}
-      {% if post.venue %}
-        <p class="pub-venue">{{ post.venue }} ({{ post.date | date: "%Y" }})</p>
+      {% if post.excerpt %}
+        <p class="pub-abstract">{{ post.excerpt | strip_html | truncatewords: 80 }}</p>
       {% endif %}
     </div>
   {% endfor %}
