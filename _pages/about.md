@@ -15,7 +15,7 @@ My journey began as an undergraduate in physics, where an early curiosity about 
 
 ## Research Interests
 
-Algorithms and Complexity theory, Beyond worst-case analysis of algorithms, Quantum Computing and Quantum Information, Boolean function complexity, Parameterized algorithms, and Machine learning. 
+Algorithms and Complexity theory, Beyond worst-case analysis of algorithms, Parameterized algorithms, Approximation Algorithms, Hardness of Approximation, Quantum Computing and Quantum Information, Boolean function complexity, and Machine learning. 
 
 ## [Blog](https://o-qcblog.github.io/){:target="_blank"}
 
