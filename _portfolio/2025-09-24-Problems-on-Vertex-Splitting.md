@@ -6,5 +6,6 @@ tags:
 - Graph theory
 - Algorithms
 - NP complete
+thumbnail: /images/project_images/PiVertexSplitting.jpg
 ---
 <img src="/images/project_images/PiVertexSplitting.jpg" alt="Problems on Vertex Splitting" width="600"/>
