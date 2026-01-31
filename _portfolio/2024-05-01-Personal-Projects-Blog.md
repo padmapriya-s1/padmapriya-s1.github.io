@@ -9,6 +9,7 @@ tags:
 - Complexity theory
 - Quantum computing
 - Puzzles
+thumbnail: /images/project_images/QuantaOnComputing.jpg
 ---
 <img src="/images/project_images/QuantaOnComputing.jpg" alt="Quanta on Computing" width="600"/>
 
