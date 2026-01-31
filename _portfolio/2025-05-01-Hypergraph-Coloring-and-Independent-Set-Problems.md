@@ -10,5 +10,6 @@ tags:
 - Graph theory
 - Graph coloring
 - Hypergraphs
+thumbnail: /images/project_images/MSthesis.jpg
 ---
 <img src="/images/project_images/MSthesis.jpg" alt="Master's Thesis" width="600"/>
