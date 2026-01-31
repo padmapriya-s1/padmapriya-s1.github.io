@@ -71,9 +71,8 @@ margin-bottom: 2rem;
 
 
 .portfolio-thumbnail {
-  width: 100%;
-  max-width: 220px;   /* ← make this smaller */
-  height: auto;
-  border-radius: 8px;
-  margin: 0.4rem 0 0.6rem 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
+
