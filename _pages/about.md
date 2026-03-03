@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Padmapriya Shakespeare (S. Padmapriya)"
+title: "S. Padmapriya (Padmapriya Shakespeare)"
 author_profile: true
 redirect_from: 
   - /about/
