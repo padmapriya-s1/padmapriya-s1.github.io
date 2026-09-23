@@ -25,9 +25,9 @@ author:
   avatar           : "profile.png"
   name             : "S. Padmapriya"
   pronouns         : "she/her"  
-  bio              : "MS Thesis Student at IISc Bengaluru | BS-MS Student IISER Pune"
-  #location         : "IISER, Pune"
-  employer         : "IISc Bengluru, IISER Pune"
+  bio              : "Ph.D Student UCSC| BS-MS Graduate IISER Pune"
+  location         : "Santa Cruz, CA"
+  employer         : "University of California, Santa Cruz"
   uri              : # URL
   email            : "quantaoncomputing@gmail.com" 
 
@@ -60,7 +60,7 @@ author:
   goodreads        : # Username
   google_plus      : # Username
   keybase          : # Username
-  instagram        : "padmapriyas_"
+  instagram        : "padmapriya_sa_"
   lastfm           : # Username
   linkedin         : "padmapriya-s-"
   mastodon         : # URL
