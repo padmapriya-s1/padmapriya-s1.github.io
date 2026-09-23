@@ -11,7 +11,7 @@ redirect_from:
 
 Hi! I’m Padmapriya, a Computer Science and Engineering Ph.D. student at University of California, Santa Cruz. I’m extremely grateful and fortunate to be advised by [Dr. Alexandra Kolla](https://people.ucsc.edu/~akolla/){:target="_blank"}.
 
-My journey began as an undergraduate in physics, where an early curiosity about quantum computing sparked my interest in the elegant world of theoretical computer science. Since then, I’ve been captivated by the rich interplay between computer science, mathematics, and physics—constantly driven by a desire to explore the foundational ideas that connect them.
+My journey began as an undergraduate in physics, where an early curiosity about quantum computing sparked my interest in the elegant world of theoretical computer science. Since then, I’ve been captivated by the rich interplay between computer science, mathematics, and physics, constantly driven by a desire to explore the foundational ideas that connect them.
 
 My research interests focus on theoretical computer science, particularly algorithms, computational complexity, and quantum computing.
 
