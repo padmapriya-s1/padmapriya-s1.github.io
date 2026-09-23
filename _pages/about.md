@@ -21,7 +21,7 @@ Algorithms and Complexity theory, Beyond worst-case analysis of algorithms, Para
 
 ## [Blog](https://o-qcblog.github.io/){:target="_blank"}
 
-I also have a [blog](https://o-qcblog.github.io/){:target="_blank"}, **[Quanta on Computing](https://o-qcblog.github.io/){:target="_blank"}**, where I speak about topics that excite me in theoretical computer science.
+I also have a [blog](https://o-qcblog.github.io/){:target="_blank"}, **[Quanta on Computing](https://o-qcblog.github.io/){:target="_blank"}**, where I speak about topics that excite me in theoretical computer science. 
 
 ## News
 
